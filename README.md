@@ -3,6 +3,32 @@
 
 ### HP Z620 Catalina Install Guide
 
+Hardware Overview:
+
+  Model Name:	Mac Pro (HP)
+  Model Identifier:	MacPro6,1 (Z620)
+  Processor Name:	8-Core Intel Xeon E5
+  Processor Speed:	2.69 GHz
+  Number of Processors:	1
+  Total Number of Cores:	8
+  L2 Cache (per Core):	256 KB
+  L3 Cache:	20 MB
+  Hyper-Threading Technology:	Enabled
+  Memory:	128 GB
+  
+  GPU:
+  Chipset Model:	Radeon RX 5700 XT
+  Type:	GPU
+  Bus:	PCIe
+  Slot:	Ethernet
+  PCIe Lane Width:	x16
+  VRAM (Total):	8 GB
+  Vendor:	AMD (0x1002)
+  Device ID:	0x731f
+  Revision ID:	0x00c1
+  ROM Revision:	113-230LNAVIXT612_8G
+  Metal:	Supported, feature set macOS GPUFamily2 v1
+
 #### Things you’ll need:
 
 1. A USB drive that is 16GB or greater

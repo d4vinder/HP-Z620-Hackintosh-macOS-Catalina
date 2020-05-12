@@ -69,18 +69,39 @@ You will be prompted for your password to the Macintosh, enter this then hit 'En
 
 #### BIOS Prep:
 
-Set your BIOS (v3.60) as follows:
+Set your BIOS (v3.90) as follows: (F10 to Enter BIOS)
 
 Storage > Storage Options
 - Removal Media Boot = Enable
-- Legacy Diskette Write = Enable
-- SATA Emulation = RAID+AHCI
+- SATA Emulation = AHCI
+
+Storgae  > Boot Order
+- UEFI = USB Hard drive at the top
+- Legacy = USB Hard Drive at the top
+
+Security > Device Security
+- Embedded Device Security = Device Hidden
+- Everything Else = Enable
+
+Security > USB Security
+- Restrct USB Devices = Allow all USB Devcies
+- Everythng Else = Enabled
+
+Security > Slot Security
+- Enable all
+
+Security > Network Boot
+- Network Boot = Disabled
 
 Security > System Security
 - Data Execution Prevention = Enable
 - Virtualization (VTx) = Enable
-- Virtualization (VT-d2) = Disable
-- AES Instruction = Enable
+- Virtualization (VT-d) = Disable
+
+Security > Secure Boot Configuration
+- Legacy Support = Enabled
+- Secure Boot = Disabled
+- Fast Boot = Disabled
 
 Security > Device Security
 - Serial port = Hidden
@@ -91,34 +112,29 @@ Security > Device Security
 
 Power > OS Power Management
 - Runtime Power Man = Enable
-- MWAIT-Aware OS = Enable
+- Turbo Mode = Enable
 - Idle Power savings = Extended
-- ACPI S3 Hard Disk = Disable
-- ACPI S3 PS2 Mouse = Enable
-- USB Wake = Disable
-- Unique Sleep State = Disable
+- PCIe Performance Mode = Disabled
+- Unique Sleep State Blink Rates = Disabled
 
 Power > Hardware Power Management
-- SATA Power Manage = Enable
-- EUP Compliance = Enable
+- s% Maximum Power Savings = Disabled
 
 Advanced > Processor
 - Hyper-Threading = Enable
 - Active Cores = All Cores
 - Limited CPUID = Disable
 
-Advanced > Chipset/Memory
-- PCI SERR# Generation = Disable
-- PCI VGA Palette Snooping = Disable
-
 Advanced > Device Options
 - Num Lock = On
 - S5 Wake on LAN = Enable
 - Multi-Processor = Enable
 - Internal Speaker = Enable
-- Monitor Tracking = Disable
-- NIC PXE = Disable
-- SATA RAID Option ROM = Enable
+- Mass Storage Option ROMS = Legacy
+- Video Option ROMS = Legacy
+- Active Processor Cores = All
+- Hyper Threading = Enabled
+- CECP Mode = Disabled
 
 #### Install macOS Catalina:
 

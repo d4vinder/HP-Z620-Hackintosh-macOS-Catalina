@@ -75,7 +75,7 @@ Storage > Storage Options
 - Removal Media Boot = Enable
 - SATA Emulation = AHCI
 
-Storgae  > Boot Order
+Storage  > Boot Order
 - UEFI = USB Hard drive at the top
 - Legacy = USB Hard Drive at the top
 
@@ -84,8 +84,8 @@ Security > Device Security
 - Everything Else = Enable
 
 Security > USB Security
-- Restrct USB Devices = Allow all USB Devcies
-- Everythng Else = Enabled
+- Restrict USB Devices = Allow all USB Devices
+- Everything Else = Enabled
 
 Security > Slot Security
 - Enable all
@@ -95,8 +95,8 @@ Security > Network Boot
 
 Security > System Security
 - Data Execution Prevention = Enable
-- Virtualization (VTx) = Enable
-- Virtualization (VT-d) = Disable
+- Virtualisation (VTx) = Enable
+- Virtualisation (VT-d) = Disable
 
 Security > Secure Boot Configuration
 - Legacy Support = Enabled
@@ -118,7 +118,7 @@ Power > OS Power Management
 - Unique Sleep State Blink Rates = Disabled
 
 Power > Hardware Power Management
-- s% Maximum Power Savings = Disabled
+- S5 Maximum Power Savings = Disabled
 
 Advanced > Processor
 - Hyper-Threading = Enable

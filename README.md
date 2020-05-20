@@ -1,6 +1,8 @@
 # HP-Z620-macOS-Catalina
 ## Complete EFI for HP Z620 for macOS Catalina 10.15.4
 
+## UPDATES: Check the repo for EFI directory updates for the latest version.
+
 ### HP Z620 Catalina Install Guide
 
 Hardware Overview:

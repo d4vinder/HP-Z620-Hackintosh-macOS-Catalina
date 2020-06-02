@@ -19,7 +19,7 @@ Hardware Overview:
 - Memory:	128 GB
   
   
-GPU: (NOTE: If you do not have an AMD Radeon 5700 XT Remove the boot flag -agdpmod=pikera)
+GPU: (NOTE: If you DO  have an AMD Radeon 5700 XT ADD the boot flag -agdpmod=pikera, otherwise you'll get a black screen)
   
 - Chipset Model:	Radeon RX 5700 XT
 - Bus:	PCIe  

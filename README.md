@@ -1,5 +1,5 @@
 # HP-Z620-macOS-Catalina
-## Complete EFI for HP Z620 for macOS Catalina 10.15.4
+## Complete EFI for HP Z620 for macOS Catalina 10.15.5
 
 ## UPDATES: Check the repo for EFI directory updates for the latest version.
 
@@ -19,7 +19,7 @@ Hardware Overview:
 - Memory:	128 GB
   
   
-GPU:
+GPU: (NOTE: If you do not have an AMD Radeon 5700 XT Remove the boot flag -agdpmod=pikera)
   
 - Chipset Model:	Radeon RX 5700 XT
 - Bus:	PCIe  

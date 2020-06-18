@@ -44,7 +44,7 @@ GPU: (NOTE: If you DO  have an AMD Radeon 5700 XT ADD the boot flag -agdpmod=pik
 
 5. Clover Configurator https://mackie100projects.altervista.org/download-clover-configurator/
 
-5. HP Z620 EFI.zip - EFI directory files from GitHub https://github.com/d4vinder/HP-Z620-Hackintosh-macOS-Catalina/blob/master/HP%20Z620%20EFI.zip?raw=true
+5. HP Z620 EFI.zip - EFI directory files from this GitHub repo above
 
 #### USB Installer Prep: 
 

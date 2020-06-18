@@ -1,5 +1,5 @@
 # HP-Z620-macOS-Catalina
-## Complete EFI for HP Z620 for macOS Catalina 10.15.5
+## Complete EFI for HP Z620 for macOS Catalina 10.15.5 using Clover 5119.
 
 ## UPDATES: Check the repo for EFI directory updates for the latest version.
 
@@ -165,7 +165,7 @@ So far, the modified bootloader is only present on the USB. This means without t
 3. Change the Serial Number for your new Hackintosh from the one that is included in the 'config.plist' file in the downloaded 'Hp Z620 EFI.zip'. Otherwise, multiple accounts using the same serial number will lock your AppleID. To change the Serial Number;
 
 - Locate and open the 'config.plist' file in the recently extracted EFI folder.
-- On the left-hand menu, click on 'SMBIOS', then on the main pane, under 'System', click on 'Generate New' next to the 'serial number' field. You can check if this serial is free to use by clicking on 'Check Coverage' on the right of 'Clover Configurator'. Apples website will tell you if it's already in use. Thanks Apple ;-)
+- On the left-hand menu, click on 'SMBIOS', then on the bottom right-hand corner of the main pane, ~~click on 'Generate New' next to the 'serial number'~~ click the 'up/down' arrow and generate a new System Definition field. You can check if the serial generated is free to use by clicking on 'Check Coverage' on the right of 'Clover Configurator'. Apples website will tell you if it's already in use. Thanks Apple ;-)
 - Press cmd+S to save the file change.
 
 ###### Now we will copy the modified EFI directory to the macOS Catalina boot drives' EFI partition.

@@ -176,6 +176,6 @@ So far, the modified bootloader is only present on the USB. This means without t
 
 3. Copy your modified EFI folder (with the serial changed) and paste it over the one that's already there, replacing the EFI folder on Z620 boot drive. 
 
-4. Safety remove your Installer USB and restart your workstation.
+4. Safely remove your Installer USB and restart your workstation.
 
 Enjoy your Hackintosh Z620.

@@ -70,8 +70,8 @@ You will be prompted for your password to the Macintosh, enter this then hit 'En
 7. Extract the 'HP Z620 EFI.zip' folder downloaded from GitHub. Copy the contents to the root of your boot drive's EFI mounted partition, the same location to where you just installed the Clover bootloader. Overwrite or delete the existing EFI folder that’s already there prior to pasting the contents of 'HP Z620 EFI.zip'
 
 #### BIOS Prep:
-
-Set your BIOS (v3.90) as follows: (F10 to Enter BIOS)
+v3.96 December 2019 - see attached file in repo. Format USB as FAT32, copy the folder contents to root of USB and flash using BIOS menu.
+Set your BIOS as follows: (F10 to Enter BIOS)
 
 Storage > Storage Options
 - Removal Media Boot = Enable

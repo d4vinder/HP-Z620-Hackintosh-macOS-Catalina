@@ -1,5 +1,5 @@
 # HP-Z620-macOS-Catalina
-## Complete EFI for HP Z620 for macOS Catalina 10.15.5 using Clover 5119.
+## Complete EFI for HP Z620 for macOS Catalina 10.15.5 using Clover 5120.
 
 ## UPDATES: Check the repo for EFI directory updates for the latest version.
 
@@ -19,7 +19,11 @@ Hardware Overview:
 - Memory:	128 GB
   
   
-GPU: (NOTE: If you DO  have an AMD Radeon 5700 XT ~~ADD the boot flag -agdpmod=pikera, otherwise you'll get a black screen~~ REMOVE the 'WhateverGreen.kext from the 'Others' folder and remove the flag '-agdpmod=pikera' from the config.plist file. The GPU is supported natively and doesnt require any additonal supporting 3rd party kernel extensions.)
+GPU: 
+
+NOTE: 
+AMD 5700 XT family is supported natively in 10.15.x there is no need to add additional kernel extentions. 
+For NVIDIA ensure you've moved the base WhateverGreen.kext from the 'Off' folder to the 'Others' folder under the KEXTS directory
   
 - Chipset Model:	Radeon RX 5700 XT
 - Bus:	PCIe  
